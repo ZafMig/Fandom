@@ -1,0 +1,34 @@
+.UIButton {
+}
+.UIButton.string {
+  position: absolute;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  top: 12px;
+  right: 105px;
+  text-align: center;
+  z-index: 200;
+  color: white;
+  border-color: white;
+  border-radius: 2px;
+  outline: 1px solid white;
+  margin-right: 5px;
+}
+.UIButton.number {
+  position: absolute;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  top: 12px;
+  right: 15px;
+  text-align: center;
+  z-index: 200;
+  color: rgb(0, 0, 0);
+  background-color: gold;
+  border-color: white;
+  border-radius: 2px;
+  outline: 1px solid gold;
+  margin-right: 5px;
+  margin-left: 5px;
+}
