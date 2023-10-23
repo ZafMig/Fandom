@@ -3,7 +3,7 @@ import classes from "../Style/Components/UIButton.module.scss";
 
 interface IUIButton {
   children: React.ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
   type?: string;
 }
 
